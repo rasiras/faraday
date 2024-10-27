@@ -76,7 +76,7 @@ If you want to run directly from this repo, this is the recommended way:
 $ pip3 install virtualenv
 $ virtualenv faraday_venv
 $ source faraday_venv/bin/activate
-$ git clone git@github.com:infobyte/faraday.git
+$ git clone git@github.com:infobyte/faraday.git & cd faraday
 $ pip3 install .
 $ faraday-manage initdb
 $ faraday-server
